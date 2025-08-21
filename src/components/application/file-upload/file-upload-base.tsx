@@ -9,7 +9,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Button } from "@/components/base/buttons/button";
 import { ButtonUtility } from "@/components/base/buttons/button-utility";
 import { ProgressBar } from "@/components/base/progress-indicators/progress-indicators";
-import { FeaturedIcon } from "@/components/foundations/featured-icon/featured-icon";
+import { FeaturedIcon } from "@/components/foundations/featured-icon/featured-icons";
 import { cx } from "@/utils/cx";
 
 /**

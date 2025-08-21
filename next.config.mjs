@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        optimizePackageImports: ["@untitledui/icons"],
-    },
+  output: "export", // static export for GitHub Pages
+  images: { unoptimized: true }, // disable image optimization
+  experimental: {
+    optimizePackageImports: ["@untitledui/icons"],
+  },
 };
 
 export default nextConfig;
