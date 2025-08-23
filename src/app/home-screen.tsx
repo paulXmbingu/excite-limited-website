@@ -11,11 +11,14 @@ export const HomeScreen = () => {
     return (
         <div className="flex h-dvh flex-col">
             <div className="flex min-h-0 flex-1 flex-col items-center justify-center px-4 md:px-8">
-                <div className="relative flex size-64 items-center justify-center m-2">
+                
+                <div className="relative flex w-64 items-center justify-center m-10">
                     <ExciteLogo />
                 </div>
+
                 <h1 className="max-w-3xl text-center text-display-xsm font-regular text-primary"> Premier Digital Product Innovation Company that Specializes in </h1>
-                <p className="mt-2 max-w-xl text-center text-5xl font-bold leading-[60px] tracking-tight text-primary font-inter">
+                
+                <p className="mt-1 max-w-xl text-center text-3xl font-bold leading-snug tracking-tight text-primary font-inter">
                     UIUX Research, Design & Software Engineering
                 </p>
 
@@ -43,6 +46,7 @@ export const HomeScreen = () => {
                         Icons
                     </Button>
                     <div className="h-px w-4 bg-brand-solid" />
+                    
                     <Button
                         href="https://github.com/untitleduico/react/issues"
                         target="_blank"
