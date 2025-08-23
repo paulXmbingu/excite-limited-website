@@ -1,8 +1,7 @@
 "use client";
 
-import { BookOpen01, Check, Copy01, Cube01, HelpCircle } from "@untitledui/icons";
+import { BookOpen01, Cube01, HelpCircle } from "@untitledui/icons";
 import { Button } from "@/components/base/buttons/button";
-import { ButtonUtility } from "@/components/base/buttons/button-utility";
 import {ExciteLogo} from "@/components/foundations/logo/excite-logo"
 import { useClipboard } from "@/hooks/use-clipboard";
 
@@ -19,20 +18,6 @@ export const HomeScreen = () => {
                 <p className="mt-2 max-w-xl text-center text-5xl font-bold leading-[60px] tracking-tight text-primary font-inter">
                     UIUX Research, Design & Software Engineering
                 </p>
-                <div className="relative mt-6 flex h-10 items-center rounded-lg border border-secondary bg-secondary">
-                    <code className="px-3 font-mono text-secondary">npx untitledui@latest add</code>
-
-                    <hr className="h-10 w-px bg-border-secondary" />
-
-                    <ButtonUtility
-                        color="tertiary"
-                        size="sm"
-                        tooltip="Copy"
-                        className="mx-1"
-                        icon={clipboard.copied ? Check : Copy01}
-                        onClick={() => clipboard.copy("npx untitledui@latest add")}
-                    />
-                </div>
 
                 <div className="mt-6 flex items-center gap-3">
                     <Button
@@ -46,6 +31,7 @@ export const HomeScreen = () => {
                         Docs
                     </Button>
                     <div className="h-px w-4 bg-brand-solid" />
+                    
                     <Button
                         href="https://www.untitledui.com/react/resources/icons"
                         target="_blank"
