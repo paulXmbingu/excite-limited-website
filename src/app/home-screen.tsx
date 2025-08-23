@@ -14,15 +14,13 @@ export const HomeScreen = () => {
     return (
         <div className="flex h-dvh flex-col">
             <div className="flex min-h-0 flex-1 flex-col items-center justify-center px-4 md:px-8">
-                <div className="relative flex size-28 items-center justify-center">
-                    <ExciteLogoMinimal className="size-10" />
+                <div className="relative flex size-20 items-center justify-center m-8">
+                    <ExciteLogoMinimal/>
                 </div>
-                <h1 className="max-w-3xl text-center text-display-sm font-semibold text-primary">Premier Digital Product Innovation Company</h1>
-
-                <p className="mt-2 max-w-xl text-center text-lg text-tertiary">
-                    that Specializes in UIUX Research, Design & Software Engineering
+                <h1 className="max-w-3xl text-center text-display-xsm font-regular text-primary">Premier Digital Product Innovation Company that Specializes in</h1>
+                <p className="mt-2 max-w-xl text-center text-5xl font-bold leading-[60px] tracking-tight text-primary font-inter">
+                    UIUX Research, Design & Software Engineering
                 </p>
-
                 <div className="relative mt-6 flex h-10 items-center rounded-lg border border-secondary bg-secondary">
                     <code className="px-3 font-mono text-secondary">npx untitledui@latest add</code>
 
