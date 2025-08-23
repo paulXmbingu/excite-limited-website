@@ -3,9 +3,7 @@
 import { BookOpen01, Check, Copy01, Cube01, HelpCircle } from "@untitledui/icons";
 import { Button } from "@/components/base/buttons/button";
 import { ButtonUtility } from "@/components/base/buttons/button-utility";
-import { UntitledLogoMinimal } from "@/components/foundations/logo/untitledui-logo-minimal";
-import ExciteLogo from "@/components/foundations/logo/excite-logo"
-import { ExciteLogoMinimal } from "@/components/foundations/logo/excite-logo-minimal"
+import {ExciteLogo} from "@/components/foundations/logo/excite-logo"
 import { useClipboard } from "@/hooks/use-clipboard";
 
 export const HomeScreen = () => {
@@ -14,10 +12,10 @@ export const HomeScreen = () => {
     return (
         <div className="flex h-dvh flex-col">
             <div className="flex min-h-0 flex-1 flex-col items-center justify-center px-4 md:px-8">
-                <div className="relative flex size-20 items-center justify-center m-8">
-                    <ExciteLogoMinimal/>
+                <div className="relative flex size-20 items-center justify-center m-2">
+                    <ExciteLogo/>
                 </div>
-                <h1 className="max-w-3xl text-center text-display-xsm font-regular text-primary">Premier Digital Product Innovation Company that Specializes in</h1>
+                <h1 className="max-w-3xl text-center text-display-xsm font-regular text-primary"> Premier Digital Product Innovation Company that Specializes in </h1>
                 <p className="mt-2 max-w-xl text-center text-5xl font-bold leading-[60px] tracking-tight text-primary font-inter">
                     UIUX Research, Design & Software Engineering
                 </p>
@@ -25,7 +23,6 @@ export const HomeScreen = () => {
                     <code className="px-3 font-mono text-secondary">npx untitledui@latest add</code>
 
                     <hr className="h-10 w-px bg-border-secondary" />
-
                     <ButtonUtility
                         color="tertiary"
                         size="sm"
