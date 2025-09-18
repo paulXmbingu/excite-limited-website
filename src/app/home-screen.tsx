@@ -7,7 +7,6 @@ import { SocialButton } from "@/components/base/buttons/social-button";
 import styles from "./home-screen.module.css";
 
 export const HomeScreen = () => {
-  const clipboard = useClipboard()
   return (
     <div className={styles.homePageWrap}>
       {/* Media Section */}
