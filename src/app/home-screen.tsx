@@ -1,83 +1,80 @@
 "use client";
 
 import React from "react";
-import { useClipboard } from "@/hooks/use-clipboard";
 import { ExciteLogo } from "@/components/foundations/logo/excite-logo";
 import { SocialButton } from "@/components/base/buttons/social-button";
-import styles from "./home-screen.module.css";
 
 export const HomeScreen = () => {
   return (
-    <div className={styles.homePageWrap}>
+    <div className="relative flex h-screen w-full flex-col md:flex-row bg-white overflow-hidden">
       {/* Media Section */}
-      <div className={styles.mediaSection}>
+      <div className="relative flex h-1/2 w-full md:h-full md:w-1/2 items-center justify-center overflow-hidden">
         <video
           autoPlay
           playsInline
           preload="auto"
           muted
           loop
-          height="100%"
-          className={styles.media}
+          className="absolute inset-0 h-full w-full object-cover"
         >
           <source
             src="https://res.cloudinary.com/excit3/video/upload/v1725643817/Excite%20Company%20Website/Next-Gen_Fintech_and_Banking_Products_Showreel_2023_by_Financial_UX_Design_Agency_UXDA_hrm7d3.mp4"
             type="video/mp4"
           />
         </video>
-        <div className={styles.mediaSectionScrim}></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#DA154D]/90"></div>
       </div>
 
       {/* Details Section */}
-      <div className={styles.detailsSection}>
-        <div className={styles.pageDetails}>
-          <div className="relative flex w-128 items-center justify-center m-10">
+      <div className="relative z-10 flex h-1/2 w-full md:h-full md:w-1/2 items-center justify-center px-4 py-8 md:px-12">
+        <div className="flex max-w-[560px] flex-col items-center justify-center gap-8">
+          {/* Logo */}
+          <div className="relative m-6 flex w-48 items-center justify-center md:w-72 lg:w-80">
             <ExciteLogo />
           </div>
 
-          <div className={styles.textCTA}>
-            <div className={styles.subTextHeroText}>
-              <div className={styles.subText}>
+          {/* Text CTA */}
+          <div className="flex flex-col items-center gap-8 w-full">
+            <div className="flex w-full flex-col items-center gap-3">
+              <div className="text-center text-base text-gray-600">
                 Premier Digital Product Innovation Company Specializing in
               </div>
-              <div className={styles.heroText}>
+              <div className="text-center text-3xl font-bold tracking-tight text-[#740B29] sm:text-2xl md:text-4xl">
                 UIUX Research, Design & Software Engineering
               </div>
             </div>
 
-            <div className={styles.cTAs}>
-              <div className={styles.socialMediaCTA}>
-                Follow us on our socials
-              </div>
-
-              <div className={styles.socialMediaIcons}>
+            {/* Social CTA */}
+            <div className="flex flex-col items-center gap-4 w-full">
+              <div className="text-gray-600">Follow us on our socials</div>
+              <div className="flex flex-wrap items-center justify-center gap-4">
                 <SocialButton
-                    social="dribble"
-                    theme="gray"
-                    href="https://www.linkedin.com/company/excitecompany"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                />                
+                  social="dribble"
+                  theme="gray"
+                  href="https://www.linkedin.com/company/excitecompany"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
                 <SocialButton
-                    social="apple"
-                    theme="gray"
-                    href="https://www.linkedin.com/company/excitecompany"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                />                
+                  social="apple"
+                  theme="gray"
+                  href="https://www.linkedin.com/company/excitecompany"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
                 <SocialButton
-                    social="facebook"
-                    theme="gray"
-                    href="https://www.linkedin.com/company/excitecompany"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                />                
+                  social="facebook"
+                  theme="gray"
+                  href="https://www.linkedin.com/company/excitecompany"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
                 <SocialButton
-                    social="twitter"
-                    theme="gray"
-                    href="https://www.linkedin.com/company/excitecompany"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  social="twitter"
+                  theme="gray"
+                  href="https://www.linkedin.com/company/excitecompany"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 />
               </div>
             </div>
