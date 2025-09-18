@@ -47,34 +47,42 @@ export const HomeScreen = () => {
             {/* Social CTA */}
             <div className="flex flex-col items-center gap-4 w-full">
               <div className="text-gray-600">Follow us on our socials</div>
-              <div className="flex flex-wrap items-center justify-center gap-4">
+              <div className="flex flex-wrap items-center justify-center gap-2">
                 <SocialButton
                   social="dribble"
                   theme="gray"
+                  size="sm"
                   href="https://www.linkedin.com/company/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
                 />
                 <SocialButton
                   social="apple"
                   theme="gray"
+                  size="sm"
                   href="https://www.linkedin.com/company/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
                 />
                 <SocialButton
                   social="facebook"
                   theme="gray"
+                  size="sm"
                   href="https://www.linkedin.com/company/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
                 />
                 <SocialButton
                   social="twitter"
                   theme="gray"
+                  size="sm"
                   href="https://www.linkedin.com/company/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
                 />
               </div>
             </div>
