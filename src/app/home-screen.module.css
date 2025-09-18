@@ -1,0 +1,203 @@
+.homePageWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: var(--Colors-Background-bg-primary, #FFF);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Media Section */
+.mediaSection {
+    display: flex;
+    min-width: var(--width-xxs, 320px);
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: var(--Base-4-Premitives-0, 0px);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.mediaSectionScrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 51.56%, #DA154D 100%);
+    z-index: 1;
+}
+
+@media (max-width: 512px) {
+    .mediaSection {
+        height: 80vh;
+        min-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mediaSection {
+        height: 60vh;
+        min-width: 60%;
+    }
+}
+
+/* Details Section */
+.detailsSection {
+    display: flex;
+    min-width: var(--width-xxs, 320px);
+    padding: var(--Base-4-Premitives-12, 48px) var(--container-padding-mobile, 16px);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px var(--Base-4-Premitives-0, 0px);
+    flex: 1 0 0;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    z-index: 2; /* keeps text above video */
+}
+
+.pageDetails {
+    display: flex;
+    max-width: var(--width-md, 560px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        max-width: 90%;
+    }
+}
+
+/* Text CTA Section */
+.textCTA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-4xl, 32px);
+    align-self: stretch; 
+}
+
+.subTextHeroText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch; 
+}
+
+.subText {
+    align-self: stretch;
+    color: var(--colors-text-text-tertiary-600, #475467);
+    text-align: center;
+
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-lg, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-lg, 28px);
+}
+
+@media (max-width: 768px) {
+    .subText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .subText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.heroText {
+    align-self: stretch;
+    color: var(--colors-text-text-brand-primary-900, #740B29);
+    text-align: center;
+    font-family: var(--Font-family-font-family-display, Inter);
+    font-size: var(--Font-size-display-lg, 48px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--Line-height-display-lg, 60px);
+    letter-spacing: -0.96px;
+}
+
+@media (max-width: 768px) {
+    .heroText {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroText {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+.cTAs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xl, 16px);
+    align-self: stretch;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 12px var(--spacing-lg, 12px);
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.legalFinePrint {
+    align-self: stretch;
+    color: var(--colors-text-text-tertiary-600, #475467);
+    text-align: center;
+
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-xs, 12px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-xs, 18px);
+}
