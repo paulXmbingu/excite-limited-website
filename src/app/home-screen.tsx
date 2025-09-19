@@ -4,6 +4,37 @@ import React from "react";
 import { ExciteLogo } from "@/components/foundations/logo/excite-logo";
 import { SocialButton } from "@/components/base/buttons/social-button";
 
+// Metadata for this page
+export const metadata = {
+  title: "Excite Company - UIUX Research, Design & Software Engineering",
+  description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
+  keywords: ["UIUX", "Design", "Software Engineering", "Product Innovation", "Excite Company"],
+  authors: [{ name: "Excite Company" }],
+  openGraph: {
+    title: "Excite Company - UIUX Research, Design & Software Engineering",
+    description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
+    url: "https://www.excitecompany.com",
+    siteName: "Excite Company",
+    images: [
+      {
+        url: "https://res.cloudinary.com/excit3/image/upload/v1725643817/Excite_Company_Share_Image.png",
+        width: 1200,
+        height: 630,
+        alt: "Excite Company",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Excite Company - UIUX Research, Design & Software Engineering",
+    description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
+    images: ["https://res.cloudinary.com/excit3/image/upload/v1725643817/Excite_Company_Share_Image.png"],
+    creator: "@ExciteCompany",
+  },
+};
+
 export const HomeScreen = () => {
   return (
     <div className="relative flex h-screen w-full flex-col md:flex-row bg-auto overflow-hidden">
@@ -27,7 +58,7 @@ export const HomeScreen = () => {
 
       {/* Details Section */}
       <div className="relative z-10 flex h-1/2 w-full md:h-full md:w-1/2 items-center justify-center px-4 py-8 md:px-12">
-        <div className="flex max-w-[560px] flex-col items-center justify-center gap-">
+        <div className="flex max-w-[560px] flex-col items-center justify-center gap-8">
           {/* Logo */}
           <div className="relative m-6 flex w-48 items-center justify-center md:w-72 lg:w-80">
             <ExciteLogo />
@@ -52,7 +83,7 @@ export const HomeScreen = () => {
                   social="dribble"
                   theme="gray"
                   size="sm"
-                  href="https://www.linkedin.com/company/excitecompany"
+                  href="https://www.dribbble.com/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
@@ -61,7 +92,7 @@ export const HomeScreen = () => {
                   social="apple"
                   theme="gray"
                   size="sm"
-                  href="https://www.linkedin.com/company/excitecompany"
+                  href="https://www.apple.com/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
@@ -70,7 +101,7 @@ export const HomeScreen = () => {
                   social="facebook"
                   theme="gray"
                   size="sm"
-                  href="https://www.linkedin.com/company/excitecompany"
+                  href="https://www.facebook.com/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
@@ -79,7 +110,7 @@ export const HomeScreen = () => {
                   social="twitter"
                   theme="gray"
                   size="sm"
-                  href="https://www.linkedin.com/company/excitecompany"
+                  href="https://www.twitter.com/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
