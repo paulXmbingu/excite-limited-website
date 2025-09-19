@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Excite! Innovation Limited",
+    title: "Excite! Innovation",
     description: "UIUX Research, Design & Software Engineering",
 };
 
