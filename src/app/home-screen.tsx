@@ -6,21 +6,21 @@ import { SocialButton } from "@/components/base/buttons/social-button";
 
 // Metadata for this page
 export const metadata = {
-  title: "Excite Company - UIUX Research, Design & Software Engineering",
+  title: "Excite! Innovation Limited - UIUX Research, Design & Software Engineering",
   description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
-  keywords: ["UIUX", "Design", "Software Engineering", "Product Innovation", "Excite Company"],
-  authors: [{ name: "Excite Company" }],
+  keywords: ["UIUX", "Design", "Software Engineering", "Product Innovation", "Excite! Innovation Limited"],
+  authors: [{ name: "Excite! Innovation Limited" }],
   openGraph: {
-    title: "Excite Company - UIUX Research, Design & Software Engineering",
+    title: "Excite! Innovation Limited - UIUX Research, Design & Software Engineering",
     description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
-    url: "https://www.excitecompany.com",
-    siteName: "Excite Company",
+    url: "https://excite.company",
+    siteName: "Excite! Innovation Limited",
     images: [
       {
-        url: "https://res.cloudinary.com/excit3/image/upload/v1725643817/Excite_Company_Share_Image.png",
+        url: "https://res.cloudinary.com/excit3/image/upload/v1727720945/Excite%20Company%20Website/File_Cover_kleht5.jpg",
         width: 1200,
         height: 630,
-        alt: "Excite Company",
+        alt: "Excite! Innovation Limited",
       },
     ],
     locale: "en_US",
@@ -28,9 +28,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Excite Company - UIUX Research, Design & Software Engineering",
+    title: "Excite! Innovation Limited - UIUX Research, Design & Software Engineering",
     description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
-    images: ["https://res.cloudinary.com/excit3/image/upload/v1725643817/Excite_Company_Share_Image.png"],
+    images: ["https://res.cloudinary.com/excit3/image/upload/v1727720945/Excite%20Company%20Website/File_Cover_kleht5.jpg"],
     creator: "@ExciteCompany",
   },
 };
