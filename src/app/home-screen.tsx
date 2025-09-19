@@ -6,7 +6,7 @@ import { SocialButton } from "@/components/base/buttons/social-button";
 
 export const HomeScreen = () => {
   return (
-    <div className="relative flex h-screen w-full flex-col md:flex-row bg-white overflow-hidden">
+    <div className="relative flex h-screen w-full flex-col md:flex-row bg-auto overflow-hidden">
       {/* Media Section */}
       <div className="relative flex h-1/2 w-full md:h-full md:w-1/2 items-center justify-center overflow-hidden">
         <video
@@ -27,7 +27,7 @@ export const HomeScreen = () => {
 
       {/* Details Section */}
       <div className="relative z-10 flex h-1/2 w-full md:h-full md:w-1/2 items-center justify-center px-4 py-8 md:px-12">
-        <div className="flex max-w-[560px] flex-col items-center justify-center gap-8">
+        <div className="flex max-w-[560px] flex-col items-center justify-center gap-">
           {/* Logo */}
           <div className="relative m-6 flex w-48 items-center justify-center md:w-72 lg:w-80">
             <ExciteLogo />
@@ -35,19 +35,19 @@ export const HomeScreen = () => {
 
           {/* Text CTA */}
           <div className="flex flex-col items-center gap-8 w-full">
-            <div className="flex w-full flex-col items-center gap-3">
-              <div className="text-center text-base text-gray-600">
-                Premier Digital Product Innovation Company Specializing in
+            <div className="flex w-full flex-col items-center gap-0">
+              <div className="text-center text-base text-alpha-black">
+                Premier digital product innovation company specializing in
               </div>
-              <div className="text-center text-3xl font-bold tracking-tight text-[#740B29] sm:text-2xl md:text-4xl">
+              <div className="text-center text-3xl font-bold tracking-tight text-brand-secondary sm:text-2xl md:text-4xl">
                 UIUX Research, Design & Software Engineering
               </div>
             </div>
 
             {/* Social CTA */}
-            <div className="flex flex-col items-center gap-4 w-full">
+            <div className="flex flex-col items-center gap-0 w-full">
               <div className="text-gray-600">Follow us on our socials</div>
-              <div className="flex flex-wrap items-center justify-center gap-2">
+              <div className="flex flex-wrap items-center justify-center gap-1">
                 <SocialButton
                   social="dribble"
                   theme="gray"
