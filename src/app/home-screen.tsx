@@ -85,7 +85,7 @@ export const HomeScreen = () => {
                   size="sm"
                   iconLeading={<LinkedIn/>}
                   aria-label="Excite! Innovation LinkedIn button"
-                  className="text-fg-quaternary"
+                  className="text-fg-quaternary hover:text-[#0a66c2]"
                   href="https://www.linkedin.com/company/exciteinnovation"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -95,7 +95,7 @@ export const HomeScreen = () => {
                   size="sm"
                   iconLeading={<Instagram/>}
                   aria-label="Excite! Innovation Instagram button"
-                  className="text-fg-quaternary"
+                  className="text-fg-quaternary hover:text-[#ff7a00]"
                   href="https://www.instagram.com/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -105,7 +105,7 @@ export const HomeScreen = () => {
                   size="sm"
                   iconLeading={<X/>}
                   aria-label="Excite! Innovation Twitter button"
-                  className="text-fg-quaternary"
+                  className="text-fg-quaternary hover:text-[#1d9bf0]"
                   href="https://www.twitter.com/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -115,7 +115,7 @@ export const HomeScreen = () => {
                   size="sm"
                   iconLeading={<YouTube/>}
                   aria-label="Excite! Innovation YouTube button"
-                  className="text-fg-quaternary"
+                  className="text-fg-quaternary hover:text-[#FF0000]"
                   href="https://www.youtube.com/@ExciteInnovation"
                   target="_blank"
                   rel="noopener noreferrer"
