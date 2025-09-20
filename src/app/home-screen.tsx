@@ -2,7 +2,8 @@
 
 import React from "react";
 import { ExciteLogo } from "@/components/foundations/logo/excite-logo";
-import { SocialButton } from "@/components/base/buttons/social-button";
+import { Button } from "@/components/base/buttons/button";
+import { LinkedIn, Instagram, X, YouTube } from "@/components/foundations/social-icons";
 
 // Metadata for this page
 export const metadata = {
@@ -79,41 +80,45 @@ export const HomeScreen = () => {
             <div className="flex flex-col items-center gap-0 w-full">
               <div className="text-gray-600">Follow us on our socials</div>
               <div className="flex flex-wrap items-center justify-center gap-1">
-                <SocialButton
-                  social="dribble"
-                  theme="gray"
+                <Button 
+                  color="tertiary"
                   size="sm"
-                  href="https://www.dribbble.com/excitecompany"
+                  iconLeading={<LinkedIn/>}
+                  aria-label="Excite! Innovation LinkedIn button"
+                  className="text-fg-quaternary"
+                  href="https://www.linkedin.com/company/exciteinnovation"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
                 />
-                <SocialButton
-                  social="apple"
-                  theme="gray"
+                <Button 
+                  color="tertiary"
                   size="sm"
-                  href="https://www.apple.com/excitecompany"
+                  iconLeading={<Instagram/>}
+                  aria-label="Excite! Innovation Instagram button"
+                  className="text-fg-quaternary"
+                  href="https://www.instagram.com/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
                 />
-                <SocialButton
-                  social="facebook"
-                  theme="gray"
+                <Button 
+                  color="tertiary"
                   size="sm"
-                  href="https://www.facebook.com/excitecompany"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
-                />
-                <SocialButton
-                  social="twitter"
-                  theme="gray"
-                  size="sm"
+                  iconLeading={<X/>}
+                  aria-label="Excite! Innovation Twitter button"
+                  className="text-fg-quaternary"
                   href="https://www.twitter.com/excitecompany"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="!border-0 !shadow-none !ring-0 outline-none before:!border-0 before:border-transparent before:!shadow-none"
+                />
+                <Button 
+                  color="tertiary"
+                  size="sm"
+                  iconLeading={<YouTube/>}
+                  aria-label="Excite! Innovation YouTube button"
+                  className="text-fg-quaternary"
+                  href="https://www.youtube.com/@ExciteInnovation"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 />
               </div>
             </div>
