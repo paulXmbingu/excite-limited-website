@@ -4,37 +4,9 @@ import React from "react";
 import { ExciteLogo } from "@/components/foundations/logo/excite-logo";
 import { Button } from "@/components/base/buttons/button";
 import { LinkedIn, Instagram, X, YouTube } from "@/components/foundations/social-icons";
+import { ChevronLeft, ChevronRight } from "@untitledui/icons";
+import { Carousel } from "@/components/application/carousel/carousel-base";
 
-// Metadata for this page
-export const metadata = {
-  title: "Excite! Innovation Limited - UIUX Research, Design & Software Engineering",
-  description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
-  keywords: ["UIUX", "Design", "Software Engineering", "Product Innovation", "Excite! Innovation Limited"],
-  authors: [{ name: "Excite! Innovation Limited" }],
-  openGraph: {
-    title: "Excite! Innovation Limited - UIUX Research, Design & Software Engineering",
-    description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
-    url: "https://excite.company",
-    siteName: "Excite! Innovation Limited",
-    images: [
-      {
-        url: "https://res.cloudinary.com/excit3/image/upload/v1727720945/Excite%20Company%20Website/File_Cover_kleht5.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Excite! Innovation Limited",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Excite! Innovation Limited - UIUX Research, Design & Software Engineering",
-    description: "Premier digital product innovation company specializing in UIUX Research, Design & Software Engineering.",
-    images: ["https://res.cloudinary.com/excit3/image/upload/v1727720945/Excite%20Company%20Website/File_Cover_kleht5.jpg"],
-    creator: "@ExciteCompany",
-  },
-};
 
 export const HomeScreen = () => {
   return (
