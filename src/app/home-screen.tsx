@@ -4,8 +4,6 @@ import React from "react";
 import { ExciteLogo } from "@/components/foundations/logo/excite-logo";
 import { Button } from "@/components/base/buttons/button";
 import { LinkedIn, Instagram, X, YouTube } from "@/components/foundations/social-icons";
-import { ChevronLeft, ChevronRight } from "@untitledui/icons";
-import { Carousel } from "@/components/application/carousel/carousel-base";
 
 
 export const HomeScreen = () => {
