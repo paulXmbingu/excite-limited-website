@@ -20,7 +20,7 @@ export const HomeScreen = () => {
           className="absolute inset-0 h-full w-full object-cover"
         >
           <source
-            src="https://res.cloudinary.com/excit3/video/upload/v1774047229/Google_Deepmind_Pexels_18069232-uhd_3840_2160_24fps_fcoamr.mp4"
+            src="https://res.cloudinary.com/excit3/video/upload/v1774048209/18069232-hd_1920_1080_24fps_lbcxk8.mp4"
             type="video/mp4"
           />
         </video>
