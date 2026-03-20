@@ -20,11 +20,11 @@ export const HomeScreen = () => {
           className="absolute inset-0 h-full w-full object-cover"
         >
           <source
-            src="https://res.cloudinary.com/excit3/video/upload/v1725643817/Excite%20Company%20Website/Next-Gen_Fintech_and_Banking_Products_Showreel_2023_by_Financial_UX_Design_Agency_UXDA_hrm7d3.mp4"
+            src="https://res.cloudinary.com/excit3/video/upload/v1774047229/Google_Deepmind_Pexels_18069232-uhd_3840_2160_24fps_fcoamr.mp4"
             type="video/mp4"
           />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#DA154D]/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#EE2255]/90"></div>
       </div>
 
       {/* Details Section */}
